@@ -1,14 +1,5 @@
 
-*********************************************************************************
-**                                                                               **
-**                              Array de 8 LEDs                                  **
-**                                                                               **
-**                                                                               **
-**********************************************************************************/
 
-//********** Includes *************************************************************
-
-//********** Variables ************************************************************
 const int led0 = 5;          // donar nom al pin 5 de l’Arduino
 const int led1 = 6;          // donar nom al pin 6 de l’Arduino
 const int led2 = 7;          // donar nom al pin 7 de l’Arduino
@@ -18,7 +9,7 @@ const int led5 = 10;         // donar nom al pin 10 de l’Arduino
 const int led6 = 11;         // donar nom al pin 11 de l’Arduino
 const int led7 = 12;         // donar nom al pin 12 de l’Arduino
 
-//********** Setup ****************************************************************
+
 void setup()
 {
   pinMode(led0, OUTPUT);     // definir el pin 5 com una sortida
@@ -30,8 +21,6 @@ void setup()
   pinMode(led6, OUTPUT);     // definir el pin 11 com una sortida
   pinMode(led7, OUTPUT);     // definir el pin 12 com una sortida
 }
-
-//********** Loop *****************************************************************
 void loop()
 {
   digitalWrite(led0, HIGH);    // posar a 5V el pin 5
